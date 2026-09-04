@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rajan Kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="nav-logo">Divyanshu<span>.</span></a>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero / Home Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <span class="greeting">Hello, I'm</span>
+        <h1 class="hero-title">Divyanshu Raj</h1>
+        <p class="hero-subtitle">Student &amp; Aspiring Web Developer</p>
+        <p class="hero-description">
+          Passionate about building responsive, accessible web applications and exploring modern technologies.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="#about" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+      <div class="hero-image-container">
+        <!-- Replace 'profile.jpg' with the path to your own image -->
+        <img src="profile.png" alt="Divyanshu Raj" class="profile-img" onerror="this.src='https://via.placeholder.com/300x300?text=Profile+Photo'">
+        
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am an undergraduate student based in Delhi with an interest in computer science, web technologies, and community leadership.
+            </p>
+            <p>
+              Whether it’s collaborating on departmental initiatives, designing event collateral, or building functional web pages from scratch, I enjoy turning ideas into tangible projects.
+            </p>
+            <div class="about-details">
+              <div><strong>Location:</strong> Delhi, India</div>
+              <div><strong>Focus:</strong> Full-Stack Development &amp; Design</div>
+              <div><strong>Education:</strong> University of Delhi</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <!-- Web Development -->
+          <div class="skill-card">
+            <div class="skill-icon">&#60;/&#62;</div>
+            <h3>Web Technologies</h3>
+            <p>HTML5, CSS3, JavaScript, Responsive Design, Flexbox &amp; Grid</p>
+          </div>
+
+          <!-- Programming & Core CS -->
+          <div class="skill-card">
+            <div class="skill-icon">&#9881;</div>
+            <h3>Computer Science</h3>
+            <p>Data Structures, Operating Systems, Database Management, Python / C++</p>
+          </div>
+
+          <!-- Tools & Design -->
+          <div class="skill-card">
+            <div class="skill-icon">&#9998;</div>
+            <h3>Design &amp; Media</h3>
+            <p>Graphic Design, Banner &amp; Poster Layouts, UI/UX Basics</p>
+          </div>
+
+          <!-- Leadership & Coordination -->
+          <div class="skill-card">
+            <div class="skill-icon">&#128101;</div>
+            <h3>Soft Skills</h3>
+            <p>Event Coordination, Team Leadership, Documentation, Public Communication</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="contact-subtitle">Have a project, collaboration idea, or just want to say hi?</p>
+        
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="info-item">
+              <span class="info-label">Email:</span>
+              <span>dam@example.com</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Location:</span>
+              <span>Delhi, India</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Socials:</span>
+              <span>GitHub / LinkedIn</span>
+            </div>
+          </div>
+
+          <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="e.g. john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Divyanshu Raj. Built with HTML &amp; CSS.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
